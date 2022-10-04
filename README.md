@@ -93,7 +93,7 @@ Plus, when I copy image I do not copy/paste file, I record the contents and outp
 (the way I see it, but something so record those data and store them somwhere is also worth introducing) is not copied.
 So equivalent of this in audio files would be playing and recording them. So what im looking for is stupid, also invloves running the file anyways,
 probably takes a lot of memory (thats why we destroy image after the job is done in gd... if we close db conncetions in those more advanced projects is
-another thing bothering me) but it led me to another interesting problem: not allowing users to download audio files, just letting them to listen, which
+another thing bothering me), besides, do I even suppor file uploads here? But it led me to another interesting problem: not allowing users to download audio files, just letting them to listen, which
 makes a lot of sense from the perspective of system design and system intended use. Worth considering </br>
 
 All in all, great project Im proud I have in my portfolio :)
