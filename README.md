@@ -67,7 +67,7 @@ and I suspect thats the problem with PHP and all the hate it receives. </br>
 - I could copy/paste a lot of things I already said about other projects from this author. </br>
 - I really like use of function constructor for Audio object and the neat way this object is written. </br>
 - Its the first time I see creating element, that is not appended anywhere but rather kept as a reference and then some actions (like play, stop)
-are performen on it. </br>
+are performed on it. </br>
 - Dealing with audio, playlists and all this stuff is a new experience to me </br>
 - Project is really good and gets a lot of job done. </br>
 - Frontend-component oriented project. The audio player is great, good looking, reactive, doing a lot of job (shuffling, managing volume).
