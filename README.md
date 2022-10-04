@@ -82,6 +82,6 @@ to the beginning instead of going back. </br>
 - Could leave fronend as it is but migrate backend to some framework like Laravel.
 - Could leave backend as it is but migrate frontend to React/Angular/Vue and maybe migrate JS to TS
 - Could try something fancy with the frontend: custom web components (possible stencil.js), svelte, custom events </br>
-- Could migrate backend to node.js and express (TS or not) to create fully javascript project <br>
+- Could migrate backend to node.js and express (TS or not) to create fully javascript project (possible migration of db to mongo) <br>
 
 All in all, great project Im proud I have in my portfolio :)
