@@ -60,6 +60,7 @@ It was kinda overwhelming, but there was great structure and in general very goo
 because lets be honest, PHP can be first web language but there is shortage of learning materials for it compared to other languages
 and I suspect thats the problem with PHP and all the hate it receives. </br>
 
+
 # Strengths: </br>
 - OOP, not to lengthy </br>
 - Good project structure </br>
@@ -83,5 +84,6 @@ to the beginning instead of going back. </br>
 - Could leave backend as it is but migrate frontend to React/Angular/Vue and maybe migrate JS to TS
 - Could try something fancy with the frontend: custom web components (possible stencil.js), svelte, custom events </br>
 - Could migrate backend to node.js and express (TS or not) to create fully javascript project (possible migration of db to mongo) <br>
+- Small thing: I would add <base> tag or some templating engine and autoloading feature </br>
 
 All in all, great project Im proud I have in my portfolio :)
