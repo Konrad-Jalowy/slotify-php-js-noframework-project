@@ -85,5 +85,15 @@ to the beginning instead of going back. </br>
 - Could try something fancy with the frontend: custom web components (possible stencil.js), svelte, custom events </br>
 - Could migrate backend to node.js and express (TS or not) to create fully javascript project (possible migration of db to mongo) <br>
 - Small thing: I would add <base> tag or some templating engine and autoloading feature </br>
+- EDIT: Just as I secure image files uploaded by the user by copying the contents rather than saving them with gd library I thought, maybe stupidly,
+that maybe there is a way to copy the contents of the audio file like that. I mean I dont know what audio file can cause in terms of security,
+people say its safe, no executable code, can do buffer overflow like any file but thats it. And of course I know, in linux shell you can copy any file,
+some people might not know, but its not only for text files, you can copy images, music as well i think, but using shell exec is a very bad thing.
+Plus, when I copy image I do not copy/paste file, I record the contents and output them in another image. Any malicious stuff or exif data
+(the way I see it, but something so record those data and store them somwhere is also worth introducing) is not copied.
+So equivalent of this in audio files would be playing and recording them. So what im looking for is stupid, also invloves running the file anyways,
+probably takes a lot of memory (thats why we destroy image after the job is done in gd... if we close db conncetions in those more advanced projects is
+another thing bothering me) but it led me to another interesting problem: not allowing users to download audio files, just letting them to listen, which
+makes a lot of sense from the perspective of system design and system intended use. Worth considering </br>
 
 All in all, great project Im proud I have in my portfolio :)
